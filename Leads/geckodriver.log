@@ -1,0 +1,197 @@
+1657296034688	geckodriver	INFO	Listening on 127.0.0.1:56927
+1657296035192	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38397" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFJcLIo"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1657296035877	Marionette	INFO	Marionette enabled
+1657296035882	Marionette	INFO	Listening on port 46115
+WebDriver BiDi listening on ws://localhost:38397
+Read port: 46115
+1657296035986	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657296035999	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:45437","sslProxy":"127.0.0.1:45437"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFJcLIo/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:38397/devtools/browser/319c24d5-1b8a-47ab-b126-b32e05acbf01
+JavaScript warning: https://static.parastorage.com/services/third-party/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1657296046347	geckodriver	INFO	Listening on 127.0.0.1:56841
+1657296046854	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52107" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezDgB9r"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1657296047487	Marionette	INFO	Marionette enabled
+1657296047491	Marionette	INFO	Listening on port 40951
+WebDriver BiDi listening on ws://localhost:52107
+Read port: 40951
+1657296047609	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657296047625	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:33635","sslProxy":"127.0.0.1:33635"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezDgB9r/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:52107/devtools/browser/52d76339-bedc-487f-b67b-e4691a84b067
+JavaScript warning: https://static.parastorage.com/services/third-party/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1657296515412	geckodriver	INFO	Listening on 127.0.0.1:36613
+1657296515918	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41291" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSg4UDC"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1657296516561	Marionette	INFO	Marionette enabled
+1657296516566	Marionette	INFO	Listening on port 45681
+WebDriver BiDi listening on ws://localhost:41291
+Read port: 45681
+1657296516666	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657296516683	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:33617","sslProxy":"127.0.0.1:33617"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSg4UDC/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:41291/devtools/browser/a9a118a9-ccd0-47e6-a389-84ef7fbaf880
+JavaScript warning: https://static.parastorage.com/services/third-party/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1657296637075	geckodriver	INFO	Listening on 127.0.0.1:54333
+1657296637579	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56447" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWfKCbI"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1657296638220	Marionette	INFO	Marionette enabled
+1657296638224	Marionette	INFO	Listening on port 41315
+WebDriver BiDi listening on ws://localhost:56447
+Read port: 41315
+1657296638331	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657296638344	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:41195","sslProxy":"127.0.0.1:41195"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWfKCbI/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:56447/devtools/browser/3ab92f47-0a9d-4c1b-a8b9-8a056cc21868
+JavaScript warning: https://static.parastorage.com/services/third-party/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1657296648250	geckodriver	INFO	Listening on 127.0.0.1:46173
+1657296648755	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42003" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4gwMyq"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1657296649395	Marionette	INFO	Marionette enabled
+1657296649398	Marionette	INFO	Listening on port 46499
+WebDriver BiDi listening on ws://localhost:42003
+Read port: 46499
+1657296649502	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657296649515	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:46869","sslProxy":"127.0.0.1:46869"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4gwMyq/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:42003/devtools/browser/5b526963-3bd9-42a7-b8b0-0b1b064e4ee5
+JavaScript warning: https://static.parastorage.com/services/third-party/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1657296825550	geckodriver	INFO	Listening on 127.0.0.1:59069
+1657296826055	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46115" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileno0nPn"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1657296826684	Marionette	INFO	Marionette enabled
+1657296826688	Marionette	INFO	Listening on port 35473
+WebDriver BiDi listening on ws://localhost:46115
+Read port: 35473
+1657296826805	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657296826819	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:46097","sslProxy":"127.0.0.1:46097"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileno0nPn/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:46115/devtools/browser/46869009-0b80-4f1a-9a31-2d4ef5ae11e7
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1657297032684	geckodriver	INFO	Listening on 127.0.0.1:52775
+1657297033188	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52685" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexD7h2w"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1657297033867	Marionette	INFO	Marionette enabled
+1657297033872	Marionette	INFO	Listening on port 44689
+WebDriver BiDi listening on ws://localhost:52685
+Read port: 44689
+1657297033986	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657297034001	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:43095","sslProxy":"127.0.0.1:43095"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexD7h2w/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:52685/devtools/browser/bed8e5f3-9f4a-4ec8-a467-f1bc8a389c67
+JavaScript warning: https://static.parastorage.com/services/third-party/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1657297869520	geckodriver	INFO	Listening on 127.0.0.1:39239
+1657297870026	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42863" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6tOn0u"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1657297870722	Marionette	INFO	Marionette enabled
+1657297870726	Marionette	INFO	Listening on port 39981
+Read port: 39981
+WebDriver BiDi listening on ws://localhost:42863
+1657297870850	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657297870866	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:33071","sslProxy":"127.0.0.1:33071"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6tOn0u/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:42863/devtools/browser/8f9ea901-9fbe-48c3-8c06-6811b0c780eb
+JavaScript warning: https://static.parastorage.com/services/third-party/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1657297913541	geckodriver	INFO	Listening on 127.0.0.1:33453
+1657297914049	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58727" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTzB9NR"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1657297914717	Marionette	INFO	Marionette enabled
+1657297914721	Marionette	INFO	Listening on port 33549
+WebDriver BiDi listening on ws://localhost:58727
+Read port: 33549
+1657297914832	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657297914846	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:40309","sslProxy":"127.0.0.1:40309"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTzB9NR/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:58727/devtools/browser/c6b7d225-b20f-4437-b233-b99f37054722
+JavaScript warning: https://static.parastorage.com/services/third-party/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1657299829900	geckodriver	INFO	Listening on 127.0.0.1:48975
+1657299830404	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39975" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileId16h2"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1657299831040	Marionette	INFO	Marionette enabled
+1657299831045	Marionette	INFO	Listening on port 42099
+WebDriver BiDi listening on ws://localhost:39975
+Read port: 42099
+1657299831155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657299831168	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:33265","sslProxy":"127.0.0.1:33265"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileId16h2/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:39975/devtools/browser/4a394522-34d5-4f43-9828-6cf67fe0961a
+JavaScript warning: https://static.parastorage.com/services/third-party/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1657299845172	geckodriver	INFO	Listening on 127.0.0.1:35585
+1657299845177	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59387" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelyb0lv"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1657299845833	Marionette	INFO	Marionette enabled
+1657299845837	Marionette	INFO	Listening on port 33319
+WebDriver BiDi listening on ws://localhost:59387
+Read port: 33319
+1657299845944	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657299845957	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:36033","sslProxy":"127.0.0.1:36033"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelyb0lv/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:59387/devtools/browser/13195427-7926-421d-9166-6e6e731aa069
+JavaScript warning: https://static.parastorage.com/services/third-party/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

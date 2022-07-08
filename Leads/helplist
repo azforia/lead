@@ -1,0 +1,24 @@
+what leads
+what geos
+what links
+number of leads per link
+
+/home/abin/Leads/leads/1
+/home/abin/Leads/leads/1/AU.csv
+/home/abin/Leads/leads/1/SE.csv
+/home/abin/Leads/leads/2
+/home/abin/Leads/leads/2/AU.csv
+/home/abin/Leads/leads/2/DE.csv
+/home/abin/Leads/leads/2/DK.csv
+/home/abin/Leads/leads/2/FI.csv
+/home/abin/Leads/leads/2/NL.csv
+/home/abin/Leads/leads/2/NZ.csv
+/home/abin/Leads/leads/2/SE.csv
+/home/abin/Leads/leads/2/SG.csv
+/home/abin/Leads/leads/3
+/home/abin/Leads/leads/3/DK.csv
+/home/abin/Leads/leads/3/NO.csv
+/home/abin/Leads/leads/4
+/home/abin/Leads/leads/4/NO.csv
+
+python sendleads.py 2 'DK AU SE NL' 'K M O P E V CT Mg L N I A D MZ' 10
