@@ -56,7 +56,7 @@ def getdata(num,csvname,ord):
     with open('leads' + '/' + csvfolder + '/' + csvname + '.txt', 'r') as f:
       line = int(f.readlines()[-1])   
     print(line)
-    with open("/home/abin/Leads/leads/" + num + '/' + csvname + ".csv", 'r') as f:
+    with open("/home/abin/lead/leads/" + num + '/' + csvname + ".csv", 'r') as f:
         mycsv = csv.reader(f)
         mycsv = list(mycsv)
         first = mycsv[line][0]
