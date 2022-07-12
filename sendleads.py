@@ -20,8 +20,6 @@ from random import randint, randrange
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning) 
 
-#update
-
 def configureProxy(cc):
     host = cc.lower() + '.smartproxy.com'
     port = word_finder(cc)
