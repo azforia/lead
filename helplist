@@ -21,4 +21,4 @@ number of leads per link
 /home/abin/Leads/leads/4
 /home/abin/Leads/leads/4/NO.csv
 
-python sendleads.py 2 'DK AU SE NL' 'K M O P E V CT Mg L N I A D MZ' 10
+python3 sendleads.py 2 'DK AU SE NL' 'K M O P E V CT Mg L N I A D MZ' 10
