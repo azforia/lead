@@ -138,6 +138,9 @@ start=0
 csvfolder = sys.argv[1]
 geo = sys.argv[2].split()
 trades = sys.argv[3].split()
+#timing in minutes
+timing = int(sys.argv[4].split())*60
+
 links = []
 for i in range(len(trades)):    
     links.append("https://www.pinpoint7.net/BitcoinERA/?campaigns=Trade" + trades[i] + "&api_key=ROxUP76L7CNfJ8K&landings=BitcoinERA&product=")
@@ -153,6 +156,6 @@ for i in range(int(sys.argv[4])*len(links)):
         start = start+1
     elif start == (len(links)-1):
         start = 0
-    time.sleep(randint(20,30))
+    time.sleep(randint(0.6*timing,timing))
     print(i)
 
