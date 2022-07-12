@@ -39,7 +39,7 @@ def configureProxy(cc):
     return browser
 
 def word_finder(search_string):
-    with open('/home/abin/Leads/proxylist.csv') as csv:
+    with open('/home/abin/lead/proxylist.csv') as csv:
         for line in csv:
             tokens = line.strip().split(',')
             try:
