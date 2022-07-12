@@ -139,7 +139,7 @@ csvfolder = sys.argv[1]
 geo = sys.argv[2].split()
 trades = sys.argv[3].split()
 #timing in minutes
-timing = int(sys.argv[4].split())*60
+timing = int(sys.argv[4])*60
 
 links = []
 for i in range(len(trades)):    
