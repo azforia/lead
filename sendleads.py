@@ -143,7 +143,7 @@ timing = int(sys.argv[4])*60
 
 links = []
 for i in range(len(trades)):    
-    links.append("https://www.pinpoint7.net/BitcoinERA/?campaigns=Trade" + trades[i] + "&api_key=ROxUP76L7CNfJ8K&landings=BitcoinERA&product=")
+    links.append("https://pinppages.com/BitcoinERA/?campaigns=Trade" + trades[i] + "&api_key=rngz7pUg6X7dTCX&landings=BitcoinERA&product=")
 
 for i in range(int(sys.argv[4])*len(links)):
     csvname = random.choice(geo)
