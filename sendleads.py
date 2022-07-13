@@ -27,7 +27,7 @@ def configureProxy(cc):
     firefox_options.add_argument('--headless')
 
     Options().headless = True
-    browser = webdriver.Firefox(options=firefox_options, 
+    browser = wd.Firefox(options=firefox_options, 
     seleniumwire_options=options)
     browser.set_window_position(0, 0)
     browser.set_window_size(1920, 1080)
