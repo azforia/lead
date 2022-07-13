@@ -71,7 +71,7 @@ def getdata(num,csvname,ord):
 
     browser = configureProxy(csvname)
     browser.get(ord)
-    time.sleep(20)
+    time.sleep(14)
     try:
         el = WebDriverWait(browser, 10).until(
         EC.element_to_be_clickable((By.CLASS_NAME, "form-control"))
