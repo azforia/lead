@@ -31,10 +31,10 @@ def configureProxy(cc):
         }
     }
 
-    #firefox_options = webdriver.FirefoxOptions()
-    #firefox_options.add_argument('--headless')
+    firefox_options = webdriver.FirefoxOptions()
+    firefox_options.add_argument('--headless')
 
-    #Options().headless = True
+    Options().headless = True
     browser = webdriver.Firefox(#options=firefox_options, 
     seleniumwire_options=options)
     return browser
