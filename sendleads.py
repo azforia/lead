@@ -4,6 +4,7 @@ import time
 import csv 
 from selenium.webdriver.firefox.options import Options
 from seleniumwire import webdriver as wd
+from selenium import webdriver
 import time
 from fake_useragent import UserAgent
 import random
@@ -26,7 +27,7 @@ def configureProxy(cc):
     firefox_options.add_argument('--headless')
 
     Options().headless = True
-    browser = wd.Firefox(options=firefox_options, 
+    browser = webdriver.Firefox(options=firefox_options, 
     seleniumwire_options=options)
     browser.set_window_position(0, 0)
     browser.set_window_size(1920, 1080)
