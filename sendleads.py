@@ -1,22 +1,13 @@
-from selenium import webdriver
 import os
 import sys
 import time
-import selenium
-from selenium.webdriver.common.proxy import Proxy, ProxyType
 import csv 
-from tarfile import FIFOTYPE
-from seleniumwire import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.firefox.options import Options
+from seleniumwire import webdriver as wd
 import time
 from fake_useragent import UserAgent
 import random
-from random import randint, randrange
+from random import randint
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning) 
 
@@ -31,12 +22,14 @@ def configureProxy(cc):
         }
     }
 
-    firefox_options = webdriver.FirefoxOptions()
+    firefox_options = wd.FirefoxOptions()
     firefox_options.add_argument('--headless')
 
     Options().headless = True
-    browser = webdriver.Firefox(options=firefox_options, 
+    browser = wd.Firefox(options=firefox_options, 
     seleniumwire_options=options)
+    browser.set_window_position(0, 0)
+    browser.set_window_size(1920, 1080)
     return browser
 
 def word_finder(search_string):
@@ -67,77 +60,45 @@ def getdata(num,csvname,ord):
 
         print(first)
     useragent = UserAgent()
-    profile = webdriver.FirefoxProfile()
+    profile = wd.FirefoxProfile()
     profile.set_preference("general.useragent.override", useragent.random)
 
     browser = configureProxy(csvname)
     browser.get(ord)
     time.sleep(2)
-    try:
-        input_fname = browser.find_element_by_name("first_name")
-        input_lname = browser.find_element_by_name("last_name")
-        input_email = browser.find_element_by_name("email")
-        input_num = browser.find_element_by_name("phone")
-        input_submit = browser.find_element_by_name("submit")
 
-        input_fname.send_keys(first)
-        input_lname.send_keys(last)
-        input_email.send_keys(email)
-        input_num.send_keys(phone)
-        print("form filled")
-        time.sleep(2)
-        with open('LEADS.txt', 'a') as f:
-            f.write("\n")
-            f.write(first + " " + last + " " + email + " " + phone + " " + str(line))
-        with open('leads' + '/' + csvfolder + '/' + csvname + 'fb.txt', 'a') as f:
-            f.write("\n")
-            f.write(first + " " + last + " " + email + " " + phone + " " + str(line))
-        with open('leads' + '/' + csvfolder + '/' + csvname + '.txt', 'a') as f:
-            f.write("\n")
-            f.write(str(line+1))
+    input_fname = browser.find_element_by_name("first_name")
+    input_lname = browser.find_element_by_name("last_name")
+    input_email = browser.find_element_by_name("email")
+    input_num = browser.find_element_by_name("phone")
+    input_submit = browser.find_element_by_name("submit")
 
-        input_submit.click()
-        time.sleep(10)
-        browser.close()
-        
-    except TimeoutException:
-        print('didnt work refreshing')
-        browser.refresh()
-        el = WebDriverWait(browser, 10).until(
-        EC.element_to_be_clickable((By.CLASS_NAME, "lms-btn"))
-        )
-        input_fname = browser.find_element_by_name("first_name")
-        input_lname = browser.find_element_by_name("last_name")
-        input_email = browser.find_element_by_name("email")
-        input_num = browser.find_element_by_name("phone")
-        input_submit = browser.find_element_by_name("submit")
+    input_fname.send_keys(first)
+    input_lname.send_keys(last)
+    input_email.send_keys(email)
+    input_num.send_keys(phone)
+    print("form filled")
+    time.sleep(2)
+    with open('LEADS.txt', 'a') as f:
+        f.write("\n")
+        f.write(first + " " + last + " " + email + " " + phone + " " + str(line))
+    with open('leads' + '/' + csvfolder + '/' + csvname + 'fb.txt', 'a') as f:
+        f.write("\n")
+        f.write(first + " " + last + " " + email + " " + phone + " " + str(line))
+    with open('leads' + '/' + csvfolder + '/' + csvname + '.txt', 'a') as f:
+        f.write("\n")
+        f.write(str(line+1))
 
-        input_fname.send_keys(first)
-        input_lname.send_keys(last)
-        input_email.send_keys(email)
-        input_num.send_keys(phone)
-        print("form filled")
-        time.sleep(2)
-        with open('LEADS.txt', 'a') as f:
-            f.write("\n")
-            f.write(first + " " + last + " " + email + " " + phone + " " + str(line))
-        with open('leads' + '/' + csvfolder + '/' + csvname + 'fb.txt', 'a') as f:
-            f.write("\n")
-            f.write(first + " " + last + " " + email + " " + phone + " " + str(line))
-        with open('leads' + '/' + csvfolder + '/' + csvname + '.txt', 'a') as f:
-            f.write("\n")
-            f.write(str(line+1))
-
-        input_submit.click()
-        time.sleep(10)
-        browser.close()
+    input_submit.click()
+    time.sleep(10)
+    browser.close()
 
 start=0
 csvfolder = sys.argv[1]
 geo = sys.argv[2].split()
 trades = sys.argv[3].split()
 #timing in minutes
-timing = int(sys.argv[4])*60
+timing = int(sys.argv[4])*5
 
 links = []
 for i in range(len(trades)):    
@@ -154,5 +115,5 @@ for i in range(int(sys.argv[4])*len(links)):
         start = start+1
     elif start == (len(links)-1):
         start = 0
-    time.sleep(randint(0.6*timing,timing))
+    time.sleep(randint(0.6*timing, timing))
     print(i)
