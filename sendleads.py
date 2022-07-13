@@ -98,7 +98,7 @@ def getdata(num,csvname,ord):
             f.write("\n")
             f.write(str(line+1))
 
-        #input_submit.click()
+        input_submit.click()
         time.sleep(10)
         browser.close()
         
@@ -130,7 +130,7 @@ def getdata(num,csvname,ord):
             f.write("\n")
             f.write(str(line+1))
 
-        #input_submit.click()
+        input_submit.click()
         time.sleep(10)
         browser.close()
 
