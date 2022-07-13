@@ -1,10 +1,12 @@
 import os
 import sys
 import time
-import csv 
+import csv
+from token import NAME 
+from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from seleniumwire import webdriver as wd
-from selenium import webdriver
+from selenium.webdriver.common.by import By
 import time
 from fake_useragent import UserAgent
 import random
@@ -68,11 +70,11 @@ def getdata(num,csvname,ord):
     browser.get(ord)
     time.sleep(2)
 
-    input_fname = browser.find_element_by_name("first_name")
-    input_lname = browser.find_element_by_name("last_name")
-    input_email = browser.find_element_by_name("email")
-    input_num = browser.find_element_by_name("phone")
-    input_submit = browser.find_element_by_name("submit")
+    input_fname = browser.find_element(By.NAME, "first_name")
+    input_lname = browser.find_element(By.NAME,"last_name")
+    input_email = browser.find_element(By.NAME,"email")
+    input_num = browser.find_element(By.NAME,"phone")
+    input_submit = browser.find_element(By.NAME,"submit")
 
     input_fname.send_keys(first)
     input_lname.send_keys(last)
