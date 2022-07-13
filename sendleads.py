@@ -31,11 +31,12 @@ def configureProxy(cc):
         }
     }
 
-    firefox_options = webdriver.FirefoxOptions()
-    firefox_options.add_argument('--headless')
+    #firefox_options = webdriver.FirefoxOptions()
+    #firefox_options.add_argument('--headless')
 
-    Options().headless = True
-    browser = webdriver.Firefox(options=firefox_options, seleniumwire_options=options)
+    #Options().headless = True
+    browser = webdriver.Firefox(#options=firefox_options, 
+    seleniumwire_options=options)
     return browser
 
 def word_finder(search_string):
@@ -71,11 +72,8 @@ def getdata(num,csvname,ord):
 
     browser = configureProxy(csvname)
     browser.get(ord)
-    time.sleep(14)
+    time.sleep(2)
     try:
-        el = WebDriverWait(browser, 10).until(
-        EC.element_to_be_clickable((By.CLASS_NAME, "form-control"))
-        )
         input_fname = browser.find_element_by_name("first_name")
         input_lname = browser.find_element_by_name("last_name")
         input_email = browser.find_element_by_name("email")
@@ -106,7 +104,7 @@ def getdata(num,csvname,ord):
         print('didnt work refreshing')
         browser.refresh()
         el = WebDriverWait(browser, 10).until(
-        EC.element_to_be_clickable((By.CLASS_NAME, "form-control"))
+        EC.element_to_be_clickable((By.CLASS_NAME, "lms-btn"))
         )
         input_fname = browser.find_element_by_name("first_name")
         input_lname = browser.find_element_by_name("last_name")
@@ -158,4 +156,3 @@ for i in range(int(sys.argv[4])*len(links)):
         start = 0
     time.sleep(randint(0.6*timing,timing))
     print(i)
-
