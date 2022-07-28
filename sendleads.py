@@ -25,11 +25,14 @@ def configureProxy(cc):
         }
     }
 
+    useragent = UserAgent()
+    profile = webdriver.FirefoxProfile()
+    profile.set_preference("general.useragent.override", useragent.random)
     firefox_options = wd.FirefoxOptions()
     firefox_options.add_argument('--headless')
 
     Options().headless = True
-    browser = wd.Firefox(options=firefox_options, 
+    browser = wd.Firefox(firefox_profile=profile, options=firefox_options, 
     seleniumwire_options=options)
     browser.set_window_position(0, 0)
     browser.set_window_size(1920, 1080)
@@ -62,11 +65,10 @@ def getdata(num,csvname,ord):
         phone = mycsv[line][3]
 
         print(first)
-    useragent = UserAgent()
-    profile = wd.FirefoxProfile()
-    profile.set_preference("general.useragent.override", useragent.random)
 
     browser = configureProxy(csvname)
+    a= browser.execute_script("return navigator.userAgent")
+    print(a)
     browser.get(ord)
     time.sleep(2)
 
